@@ -1,6 +1,7 @@
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:recyclo/models/user_model.dart';
+import 'package:recyclo/screens/addpost.dart';
 
 void main() {
   runApp(const HomeScreen());
@@ -54,41 +55,27 @@ class _HomeScreenState extends State<HomeScreenPage> {
     iconSize: 30.0,
     padding: const EdgeInsets.only(left: 25.0),
     icon: const Icon(Icons.home),
-    onPressed: () {
-    setState(() {
-    const HomeScreen();
-    });
-    },
+      onPressed: () {
+      },
+    ),
+    IconButton(
+    iconSize: 30.0,
+    padding: const EdgeInsets.only(right: 5.0),
+    icon: const Icon(Icons.add),
+      onPressed: () {
+        AddPost();
+      },
     ),
       IconButton(
         iconSize: 30.0,
-        padding: const EdgeInsets.only(left: 5.0),
-        icon: const Icon(Icons.search),
+        padding: const EdgeInsets.only(right: 25.0),
+        icon: const Icon(Icons.notifications),
         onPressed: () {
           setState(() {
 
           });
         },
       ),
-    IconButton(
-    iconSize: 30.0,
-    padding: const EdgeInsets.only(right: 5.0),
-    icon: const Icon(Icons.add),
-    onPressed: (){
-    setState(() {
-    });
-    },
-    ),
-    IconButton(
-    iconSize: 30.0,
-    padding: const EdgeInsets.only(left: 5.0),
-    icon: const Icon(Icons.notifications),
-    onPressed: () {
-    setState(() {
-
-    });
-    },
-    ),
     IconButton(
     iconSize: 30.0,
     padding: const EdgeInsets.only(right: 25.0),
@@ -98,7 +85,7 @@ class _HomeScreenState extends State<HomeScreenPage> {
 
     });
     },
-    )
+    ),
     ],
     ),
     ),
