@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "684610583563",
+    "project_id": "recyclo-b004f",
+    "storage_bucket": "recyclo-b004f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684610583563:android:026914e599adb62b379b0e",
+        "android_client_info": {
+          "package_name": "com.example.recyclo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684610583563-pbvt4o8bs46cunfupf5km6nebvq0dde5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recyclo",
+            "certificate_hash": "442ecb0d50ae5d7da280ec52ba117c2e150e1b2c"
+          }
+        },
+        {
+          "client_id": "684610583563-4m1skffa8aatcdaeso4er2ikfgorgqlv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQnNoKGk_tJ9jWBTVzlXPqNRMQl_3O004"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684610583563-4m1skffa8aatcdaeso4er2ikfgorgqlv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
